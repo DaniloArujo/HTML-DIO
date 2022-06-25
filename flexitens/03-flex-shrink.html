@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-shrink</title>
+    <style>
+        .flex-container{
+            display: flex;
+            border: 1px solid black;
+            max-width: 350px;
+            margin-bottom: 10px;
+        }
+        
+        .item{
+            background-color: orangered;
+            font-size: 24px;
+            text-align: center;
+            margin: 5px;
+        }
+        
+        .shrimp{
+            flex-shrink: 1;
+        }
+
+        .fg-1{
+            flex-grow: 1;
+        }
+        .shrimp-0{
+            flex-shrink: 0;
+            flex-basis: 100px;
+        }
+    </style>
+</head>
+<body>
+    <p>shrink 1</p>
+    <div class="flex-container">
+        <div class="item shrimp fg-1">a</div>
+        <div class="item shrimp fg-1">b</div>
+        <div class="item shrimp fg-1">c</div>
+        <div class="item shrimp fg-1">d</div>
+        <div class="item shrimp fg-1">e</div>
+    </div>
+    <p>shrink 2</p>
+    <div class="flex-container">
+        <div class="item shrimp fg-1">a</div>
+        <div class="item shrimp fg-1">basdad</div>
+        <div class="item shrimp fg-1">c</div>
+        <div class="item shrimp fg-1">d</div>
+        <div class="item shrimp fg-1">asdae</div>
+        <div class="item shrimp fg-1">d</div>
+    </div>
+
+    <p>shrink 0 - basis 100px</p>
+    <div class="flex-container">
+        <div class="item shrimp-0 fg-1">a</div>
+        <div class="item shrimp-0 fg-1">basdad</div>
+        <div class="item shrimp-0 fg-1">c</div>
+        <div class="item shrimp-0 fg-1">d</div>
+        <div class="item shrimp-0 fg-1">asdae</div>
+        <div class="item shrimp-0 fg-1">d</div>
+    </div>
+</body>
+</body>
+</html>
