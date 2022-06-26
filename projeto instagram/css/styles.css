@@ -176,22 +176,22 @@ body{
 }
 
 /*loguin com o facebook*/
-.fb-loguin{
+.fb-login{
     margin-top: 1.5rem 0;
 }
 
-.fb-loguin img,
-.fb-loguin span{
+.fb-login img,
+.fb-login span{
     vertical-align: middle;
 }
 
-.fb-loguin img{
+.fb-login img{
     width: 1.5rem;
     margin-right: 0.5rem;
 }
 
 
-.fb-loguin span{
+.fb-login span{
     font-size: 1.3rem;
     color: var(--fb-logo);
     font-weight: 700;
