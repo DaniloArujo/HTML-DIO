@@ -61,11 +61,11 @@ body{
 }
 
 /**********/
-/*loguin*/
+/*login*/
 /**********/
 
 
-/*loguin container*/
+/*login container*/
 
 .log-in{
     background: var(--white);
@@ -93,7 +93,7 @@ body{
     width: 100%;
 }
 
-/*estilos em comum entre os campos de entrada e o botão de loguin*/
+/*estilos em comum entre os campos de entrada e o botão de login*/
 
 .log-in-form input,
 .log-in-button{
@@ -101,7 +101,7 @@ body{
     border-radius: 0.5rem;
 }
 
-/*estilos em comum entre o botão de loguine e o campo local */
+/*estilos em comum entre o botão de login e o campo local */
 
 .log-in-form input,
 .log-in-form input::placeholder{
@@ -134,7 +134,7 @@ body{
     border-color: rgba(var(--border-color),0.8);
 }
 
-/*botão de loguin*/
+/*botão de login*/
 
 .log-in-button{
     background: var(--log-in-button);
@@ -175,7 +175,7 @@ body{
     right: 3rem;
 }
 
-/*loguin com o facebook*/
+/*login com o facebook*/
 .fb-login{
     margin-top: 1.5rem 0;
 }
